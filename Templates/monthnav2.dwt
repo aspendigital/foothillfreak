@@ -1,0 +1,86 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Foothill Freak: Backcountry skiing in the wasatch</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="A ski blog about backcountry skiing the Wasatch foothills,
+  near Salt Lake City, Utah. It covers year round skiing, snowboarding, touring, skinning, 
+  alpine ski mountaineering, and the occasional peak bagging.">
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="http://www.foothillfreak.com/masterstyle2.css" type="text/css">
+<link rel="shortcut icon" href="http://www.foothillfreak.com/images/ffzz.ico" type="image/ico" />
+<script type="text/javascript" src="http://www.foothillfreak.com/masterjava.js"></script>
+<!-- InstanceBeginEditable name="head" --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#50616F"  background="http://www.foothillfreak.com/images/bgphoto2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!-- InstanceBeginEditable name="layersarea" --><!-- InstanceEndEditable -->
+
+<?php include ($_SERVER['DOCUMENT_ROOT']. "/includes/header.php"); ?>
+
+<table width="777" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#C5D6E4"><!-- InstanceBeginEditable name="main" -->
+      <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#000000">
+        <tr>
+          <td rowspan="2" align="right" valign="top" bgcolor="#191919" class="bottom">
+	        <p><a href="../2005/september/index.html">September</a><br />
+                <a href="../2005/august/index.html">August</a><br />
+                <a href="../2005/july/index.html">July</a><br />
+                <a href="../2005/june/index.html">June</a><br />
+				<a href="../2005/may/index.html">May</a><br />
+				<a href="../2005/april/index.html">April</a><br />
+                <a href="../2005/march/index.html">March</a><br />
+                <a href="../2005/feb/index.html">February</a><br />
+          <a href="../2005/january/0501.html">January</a></p></td>
+          <td align="right" valign="top" bgcolor="#191919">&nbsp;</td>
+          <td rowspan="2" align="right" valign="middle" bgcolor="#37B3D1"><img src="../images/2005.gif" alt="2005" width="21" height="55" /></td>
+          <td width="636" rowspan="5" valign="top" bgcolor="#C5D6E4"><!-- TemplateBeginEditable name="blog window" --><!-- TemplateEndEditable --></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#191919"><br /></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#191919" class="bottom">
+		     <p><a href="../2004/december/index.html">December</a><br />
+			   <a href="../2004/november/index.html">November</a><br />
+			   <a href="../2004/october/index.html">October</a><br />
+			   <a href="../grand/index.html">September</a><br />
+			   <a href="../2004/july/index.html">July</a><br />
+		       <a href="../2004/june/index.html">June</a><br />
+		       <a href="../2004/may/0405.html">May</a><br />
+		       <a href="../2004/april/0404.html">April</a><br />
+		       <a href="../2004/march/0403.html">March</a><br />
+		       <a href="../2004/february/index.html">February</a><br />
+            <a href="../2004/january/index.html">January</a></p>	      </td>
+          <td align="right" valign="top" bgcolor="#191919">&nbsp;</td>
+          <td align="right" valign="middle" bgcolor="#6E96B5"><img src="../images/2004.gif" alt="2004" width="21" height="55" /></td>
+        </tr>
+        <tr>
+          <td width="115" align="right" valign="top" bgcolor="#191919"><p class="bottom">
+		       <a href="../2003/december/index.html">December</a><br />
+			   <a href="../2003/november/index.html">November</a><br />
+               <a href="../2003/September/index.html">September</a><br />
+            </p>            </td>
+          <td width="5" rowspan="2" align="right" valign="top" bgcolor="#191919">&nbsp;</td>
+          <td width="20" align="right" valign="bottom" bgcolor="#8AB4EB"><img src="../images/2003.gif" alt="2003" width="21" height="55" /></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#191919" class="bottom">
+		     <p>Some random Picts</p></td>
+          <td width="20" align="right" valign="top" bgcolor="#8AB4EB"><img src="../images/2002.gif" alt="2002" width="21" height="55" /></td>
+        </tr>
+      </table>
+      <!-- InstanceEndEditable --></td>
+  </tr>
+</table>
+ 
+<?php include ($_SERVER['DOCUMENT_ROOT']. "/includes/footer.php"); ?>
+
+</body>
+<!-- InstanceEnd --></html>

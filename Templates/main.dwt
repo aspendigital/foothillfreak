@@ -1,0 +1,38 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Foothill Freak: Extreme low elevation skiing in the Wasatch</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="A ski blog about backcountry skiing the Wasatch foothills,
+  near Salt Lake City, Utah. It covers year round skiing, snowboarding, touring, skinning, 
+  alpine ski mountaineering, and the occasional peak bagging.">
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="http://www.foothillfreak.com/masterstyle2.css" type="text/css">
+<link rel="shortcut icon" href="http://www.foothillfreak.com/images/ffzz.ico" type="image/ico" />
+<script type="text/javascript" src="http://www.foothillfreak.com/masterjava.js"></script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body bgcolor="#50616F"  background="http://www.foothillfreak.com/images/bgphoto2.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!-- TemplateBeginEditable name="layersarea" --><!-- TemplateEndEditable -->
+
+<?php include ($_SERVER['DOCUMENT_ROOT']. "/includes/header.php"); ?>
+
+<table width="777" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#C5D6E4"><!-- TemplateBeginEditable name="main" -->
+      <p>main area here </p>
+      <p>&nbsp;</p>
+    <!-- TemplateEndEditable --></td>
+  </tr>
+ </table>
+ 
+<?php include ($_SERVER['DOCUMENT_ROOT']. "/includes/footer.php"); ?>
+
+</body>
+</html>

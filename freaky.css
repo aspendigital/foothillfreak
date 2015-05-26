@@ -1,0 +1,15 @@
+h3 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 13px}
+.body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000}
+a:hover {  text-decoration: none}
+a:link {  text-decoration: underline}
+.Header {  font-size: 18px; line-height: 20px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif}
+.location {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003366;
+}
+.photo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+}

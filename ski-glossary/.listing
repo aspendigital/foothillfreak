@@ -1,0 +1,16 @@
+drwxr-xr-x   6 freaky   pg189667     4096 May 14  2010 .
+drwxr-xr-x  49 freaky   pg189667     4096 Feb 23 10:35 ..
+drwxr-xr-x   2 freaky   pg189667     4096 Nov 14  2007 _notes
+-rw-r--r--   1 freaky   pg189667       95 Jan  8 09:46 index.php
+-rw-r--r--   1 freaky   pg189667    15127 Nov 18  2007 license.txt
+-rw-r--r--   1 freaky   pg189667     8160 Nov 18  2007 readme.html
+drwxr-xr-x   5 freaky   pg189667     4096 May 14  2010 wp-admin
+-rw-r--r--   1 freaky   pg189667     2031 Jan  8 09:46 wp-atom.php
+-rw-r--r--   1 freaky   pg189667      759 Jan  8 09:46 wp-blog-header.php
+-rw-r--r--   1 freaky   pg189667     2452 Jan  8 09:46 wp-comments-post.php
+-rw-r--r--   1 freaky   pg189667     3595 Jan  8 09:46 wp-commentsrss2.php
+-rw-r--r--   1 freaky   pg189667      867 Jan  8 09:46 wp-config-sample.php
+-rw-r--r--   1 freaky   pg189667      888 Jan  8 09:46 wp-config.php
+drwxr-xr-x   5 freaky   pg189667     4096 May 14  2010 wp-content
+-rw-r--r--   1 freaky   pg189667      762 Jan  8 09:46 wp-feed.php
+drwxr-xr-x   3 freaky   pg189667     4096 May 14  2010 wp-includes

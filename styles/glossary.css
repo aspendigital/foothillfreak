@@ -1,0 +1,42 @@
+#glossary_nav {
+width: 222px;
+color: #527272;
+}
+
+#glossary_nav h1 {
+font-size: .9em;
+color: white;
+padding: 25px 12px 5px 10px;
+}
+
+#glossary_nav ul {
+list-style: none;
+padding: 0 12px;
+margin: 0;
+}
+
+#glossary_nav li {
+line-height: 1em;
+padding: 5px 0;
+}
+
+#glossary_nav a:link {
+color: #527272;
+text-decoration: none;
+}
+
+#glossary_nav a:visited {
+color: #527272;
+text-decoration: none;
+}
+
+#glossary_nav a:hover {
+color: #C5D6E4;
+background: transparent;
+text-decoration: none;
+}
+
+#glossary_nav a:active {
+color: #C5D6E4;
+text-decoration: none;
+}

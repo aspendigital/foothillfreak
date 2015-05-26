@@ -1,0 +1,773 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	background-image: url(http://www.foothillfreak.com/images/bgphoto.gif);
+	color: #333;
+	}
+
+
+h1 {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	}
+	
+h2 {
+	font: bold 13px Arial, Helvetica, sans-serif;
+	}	
+
+p {
+	font: 11px Arial, Helvetica, sans-serif;
+	}
+
+a:link {
+	color: #000099;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: none;
+}
+	
+/*------------------------------
+            Nav Style
+------------------------------*/
+/* Root = Horizontal, Secondary = Vertical */
+ul#navmenu {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 777px; /*For KHTML*/
+  list-style: none;
+  height: 21px;
+}
+
+ul#navmenu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 21px;
+width: 111px;
+text-align: center;
+}
+
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 111px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 21px;
+  left: 0;
+}
+
+ul#navmenu ul li {
+  float: none; /*For Gecko*/
+  display: block !important;
+  display: inline; /*For IE*/
+width: 111px;
+}
+
+/* Root Menu */
+ul#navmenu a {
+  border: 0 none;
+  padding: 0 0px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: transparent;
+  color: #333;
+  font: 10px/21px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+height: 21px;
+width: 111px;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+   background: #c1e7f0;
+  color: #000;
+font-weight: bold;
+width: 111px;
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  float: none;
+  background: #c1e7f0;
+  color: #578a97;
+font-weight: normal;
+font-size: 9px;
+
+
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background: #e1f3f7;
+  color: #000;
+}
+
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+  background: #c1e7f0;
+  color: #578a97;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #e1f3f7;
+  color: #000;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 111px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+}
+
+
+/*------------------------------
+maincontent id styles
+------------------------------*/
+
+#maincontent {
+
+	margin: 30px;
+	padding: 30px;
+	}
+
+#maincontent p {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 12px 0px;
+	line-height: 17px;
+	}
+
+#maincontent h1 {
+	font: bold 20px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 5px 0px;
+	color:#00395A;
+	}
+
+#maincontent h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0px 5px 0px;
+	color:#537189;
+	}
+
+#maincontent h6 {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0 0 12px 0;
+	}	
+	
+#maincontent ol, ul {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 30px 10px 50px;
+	padding: 0px;
+	line-height: 17px;
+	}		
+
+.check_list #maincontent ol, ul {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 30px 10px 50px;
+	padding: 0px;
+	line-height: 22px;
+	list-style-image: url(http://www.foothillfreak.com/images/check_box.gif);
+	list-style-position: outside;
+	}	
+	
+#maincontent img {
+	margin: 50px 0 0 0;
+	}
+
+/*------------------------------
+footer id styles
+------------------------------*/	
+#footer {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: .7em;
+text-align: right;
+color: #555;
+clear: both;
+background-color: black;
+height: 25px;
+width: 777px;
+padding: 0;
+margin: 0 auto;
+}
+
+#footer p {
+padding: 3px 0 0 0;
+margin: 0;
+}
+
+#footer a:link {
+    color: #555;
+	text-decoration: none;
+	}
+
+#footer a:visited {
+	color: #555;
+	text-decoration: none;
+	}
+
+#footer a:hover {
+	color: #999;
+	background: transparent;
+	text-decoration: none;
+	}
+
+#footer a:active {
+	color: #fff;
+	text-decoration: none;
+	}
+
+/*------------------------------
+ misc. class selectors
+------------------------------*/	
+
+.caption {
+	font-style: italic;
+	color: #000066;
+	font-size: 12px;
+	}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	background-image: url(http://www.foothillfreak.com/images/bgphoto.gif);
+	color: #333;
+	}
+
+
+h1 {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	}
+	
+h2 {
+	font: bold 13px Arial, Helvetica, sans-serif;
+	}	
+
+p {
+	font: 11px Arial, Helvetica, sans-serif;
+	}
+
+a:link {
+	color: #000099;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #000099;
+	font-weight: normal;
+	text-decoration: none;
+}
+	
+/*------------------------------
+            Nav Style
+------------------------------*/
+/* Root = Horizontal, Secondary = Vertical */
+ul#navmenu {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 777px; /*For KHTML*/
+  list-style: none;
+  height: 21px;
+}
+
+ul#navmenu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  height: 21px;
+width: 111px;
+text-align: center;
+}
+
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 111px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 21px;
+  left: 0;
+}
+
+ul#navmenu ul li {
+  float: none; /*For Gecko*/
+  display: block !important;
+  display: inline; /*For IE*/
+width: 111px;
+}
+
+/* Root Menu */
+ul#navmenu a {
+  border: 0 none;
+  padding: 0 0px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  background: transparent;
+  color: #333;
+  font: 10px/21px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+height: 21px;
+width: 111px;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+   background: #c1e7f0;
+  color: #000;
+font-weight: bold;
+width: 111px;
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  float: none;
+  background: #c1e7f0;
+  color: #578a97;
+font-weight: normal;
+font-size: 9px;
+
+
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background: #e1f3f7;
+  color: #000;
+}
+
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+  background: #c1e7f0;
+  color: #578a97;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+  background: #e1f3f7;
+  color: #000;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 111px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+}
+
+
+/*------------------------------
+maincontent id styles
+------------------------------*/
+
+#maincontent {
+	margin: 30px;
+	padding: 30px;
+	}
+
+#maincontent p {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 12px 0px;
+	line-height: 17px;
+	}
+
+#maincontent h1 {
+	font: bold 20px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 5px 0px;
+	color:#00395A;
+	}
+
+#maincontent h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 15px 0px 5px 0px;
+	color:#537189;
+	}
+
+#maincontent h6 {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0 0 12px 0;
+	}	
+	
+#maincontent ol, ul {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 30px 10px 50px;
+	padding: 0px;
+	line-height: 17px;
+	}		
+
+.check_list #maincontent ol, ul {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 30px 10px 50px;
+	padding: 0px;
+	line-height: 22px;
+	list-style-image: url(http://www.foothillfreak.com/images/check_box.gif);
+	list-style-position: outside;
+	}	
+	
+#maincontent img {
+	margin: 35px 0 0 0;
+	}
+
+/*------------------------------
+footer id styles
+------------------------------*/
+#footer {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: .7em;
+text-align: right;
+color: #555;
+clear: both;
+background-color: black;
+height: 25px;
+width: 777px;
+padding: 0;
+margin: 0 auto;
+}
+
+#footer p {
+padding: 3px 0 0 0;
+margin: 0;
+}
+
+#footer a:link {
+    color: #555;
+text-decoration: none;
+}
+
+#footer a:visited {
+color: #555;
+text-decoration: none;
+}
+
+#footer a:hover {
+color: #999;
+background: transparent;
+text-decoration: none;
+}
+
+#footer a:active {
+color: #fff;
+text-decoration: none;
+}
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+float: right;
+margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+float: left;
+margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/*------------------------------
+ misc. class selectors
+------------------------------*/	
+
+.caption {
+	font-style: italic;
+	color: #000066;
+	font-size: 12px;
+	}
+
+
+/*------------------------------
+sidenav class selectors
+------------------------------*/
+
+#sidenav p {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+margin: 0px 10px;
+color: #4A6363;
+}
+
+#sidenav a:link {
+    color: #527272;
+text-decoration: none;
+}
+
+#sidenav a:visited {
+color: #527272;
+text-decoration: none;
+}
+
+#sidenav a:hover {
+color: #C5D6E4;
+background: transparent;
+text-decoration: none;
+}
+
+#sidenav a:active {
+color: #C5D6E4;
+text-decoration: none;
+}
+
+#sidenav h1 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+margin: 13px 10px 0px 10px;
+color: #FFFFFF;
+}
+
+#sidenav img { 
+margin: 0;
+border: 0;
+}
+
+#sidenav ul {
+padding: 0;
+margin: 0;
+list-style:none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#sidenav li {
+padding: 0 5px 0 0;
+margin: 0;
+line-height: 1.15em;
+}
+
+#sidenav ul li {
+font-size: .9em;
+color: #7aa4a7;
+font-weight: bold;
+padding: 16px 10px 0 0;
+}
+
+#sidenav ul li ul li{
+font-size: .8em;
+font-weight: normal;
+padding: 0;
+}
+	
+/*------------------------------
+calendar class selectors
+------------------------------*/
+
+#calendar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	}
+	
+#calendar h1 {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 10px 0px 3px;
+	color: #FFFFFF;
+	}
+
+.small {
+	font-family: arial, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #888;
+	}
+
+.small a:link {
+	color: #888;
+	}
+
+.small a:hover {
+	color: #fff;
+	background: transparent;
+	}
+
+.small a:visited {
+	color: #888;
+	}
+	
+/*------------------------------
+for the ski glossary
+------------------------------*/	
+	
+dt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+display: inline;
+}
+
+dd {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 14px 15px;
+	line-height: 17px;
+	}
+	
+/*------------------------------
+calendar class selectors
+------------------------------*/
+
+#calendar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	}
+	
+#calendar h1 {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 10px 0px 3px;
+	color: #FFFFFF;
+	}
+
+.small {
+	font-family: arial, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #888;
+	}
+
+.small a:link {
+	color: #888;
+	}
+
+.small a:hover {
+	color: #fff;
+	background: transparent;
+	}
+
+.small a:visited {
+	color: #888;
+	}
+	
+/*------------------------------
+for the ski glossary
+------------------------------*/	
+	
+dt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+display: inline;
+}
+
+dd {
+	font: 13px Arial, Helvetica, sans-serif;
+	margin: 0px 0px 14px 15px;
+	line-height: 17px;
+	}
+	
